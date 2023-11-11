@@ -54,7 +54,7 @@ public void initialize(URL arg0, ResourceBundle arg1) {
 	
 	songs = new ArrayList<File>();
 	
-	directory = new File("music");
+	directory = new File("Oops-Project/music");
 	
 	files = directory.listFiles();
 	

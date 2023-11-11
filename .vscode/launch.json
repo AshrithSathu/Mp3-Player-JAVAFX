@@ -6,17 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "application.App",
             "projectName": "Mp3-Player-JAVAFX_a2ad44c9",
-            "vmArgs": "--module-path \"/Library/Java/javafx-sdk-21.0.1/lib\" --add-modules javafx.controls,javafx.fxml,javafx.base,javafx.graphics,javafx.media,javafx.swing,javafx.web"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
+            "vmArgs": "--module-path \"/Users/ashrithsathu/Desktop/Mp3-Player-JAVAFX/Oops-Project/src/javafx-sdk-21.0.1/lib\" --add-modules javafx.controls,javafx.fxml,javafx.base,javafx.graphics,javafx.media,javafx.swing,javafx.web"
         }
     ]
 }
